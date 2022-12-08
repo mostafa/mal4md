@@ -1,0 +1,27 @@
+name: Test mal4md net/http
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+  pull_request:
+
+jobs:
+  test:
+    name: Test mal4md net/http
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install Go 🧑‍💻
+        uses: actions/setup-go@v3
+        with:
+          go-version: "1.19"
+
+      - name: Run Go tests 🔬
+        run: go test -cover -covermode atomic -coverprofile=profile.cov -v net/...
