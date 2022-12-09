@@ -17,13 +17,14 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"net/http/internal/ascii"
 	"net/url"
 	"reflect"
 	"sort"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/mostafa/mal4md/net/http/internal/ascii"
 )
 
 // A Client is an HTTP client. Its zero value (DefaultClient) is a

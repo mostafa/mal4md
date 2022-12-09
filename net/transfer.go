@@ -11,8 +11,6 @@ import (
 	"fmt"
 	"io"
 	"net/http/httptrace"
-	"net/http/internal"
-	"net/http/internal/ascii"
 	"net/textproto"
 	"reflect"
 	"sort"
@@ -20,6 +18,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/mostafa/mal4md/net/http/internal"
+	"github.com/mostafa/mal4md/net/http/internal/ascii"
 
 	"golang.org/x/net/http/httpguts"
 )
