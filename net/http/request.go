@@ -19,13 +19,14 @@ import (
 	"mime/multipart"
 	"net"
 	"net/http/httptrace"
-	"net/http/internal/ascii"
 	"net/textproto"
 	"net/url"
 	urlpkg "net/url"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/mostafa/mal4md/net/http/internal/ascii"
 
 	"golang.org/x/net/idna"
 )

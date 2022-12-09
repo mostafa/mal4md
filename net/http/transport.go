@@ -21,7 +21,6 @@ import (
 	"log"
 	"net"
 	"net/http/httptrace"
-	"net/http/internal/ascii"
 	"net/textproto"
 	"net/url"
 	"reflect"
@@ -29,6 +28,8 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/mostafa/mal4md/net/http/internal/ascii"
 
 	"github.com/mostafa/mal4md/internal/godebug"
 
