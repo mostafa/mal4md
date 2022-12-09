@@ -16,7 +16,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/mostafa/mal4md/internal/testenv"
 	"io"
 	"log"
 	"math/rand"
@@ -25,8 +24,6 @@ import (
 	"net/http/httptest"
 	"net/http/httptrace"
 	"net/http/httputil"
-	"net/http/internal"
-	"net/http/internal/testcert"
 	"net/url"
 	"os"
 	"os/exec"
@@ -42,6 +39,10 @@ import (
 	"syscall"
 	"testing"
 	"time"
+
+	"github.com/mostafa/mal4md/internal/testenv"
+	"github.com/mostafa/mal4md/net/http/internal"
+	"github.com/mostafa/mal4md/net/http/internal/testcert"
 )
 
 type dummyAddr string

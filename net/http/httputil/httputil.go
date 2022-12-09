@@ -8,7 +8,8 @@ package httputil
 
 import (
 	"io"
-	"net/http/internal"
+
+	"github.com/mostafa/mal4md/net/http/internal"
 )
 
 // NewChunkedReader returns a new chunkedReader that translates the data read from r
