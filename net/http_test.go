@@ -8,7 +8,7 @@ package http
 
 import (
 	"bytes"
-	"internal/testenv"
+	"github.com/mostafa/mal4md/internal/testenv"
 	"io/fs"
 	"net/url"
 	"os"

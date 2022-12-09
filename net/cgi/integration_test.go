@@ -12,7 +12,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"internal/testenv"
+	"github.com/mostafa/mal4md/internal/testenv"
 	"io"
 	"net/http"
 	"net/http/httptest"

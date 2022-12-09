@@ -62,7 +62,6 @@ import (
 	"context"
 	"fmt"
 	"html"
-	"internal/profile"
 	"io"
 	"log"
 	"net/http"
@@ -75,6 +74,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/mostafa/mal4md/internal/profile"
 )
 
 func init() {

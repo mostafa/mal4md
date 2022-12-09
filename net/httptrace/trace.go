@@ -9,11 +9,12 @@ package httptrace
 import (
 	"context"
 	"crypto/tls"
-	"internal/nettrace"
 	"net"
 	"net/textproto"
 	"reflect"
 	"time"
+
+	"github.com/mostafa/mal4md/internal/nettrace"
 )
 
 // unique type to prevent assignment.

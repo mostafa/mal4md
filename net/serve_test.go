@@ -16,7 +16,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"internal/testenv"
+	"github.com/mostafa/mal4md/internal/testenv"
 	"io"
 	"log"
 	"math/rand"

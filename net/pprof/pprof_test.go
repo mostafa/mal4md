@@ -7,8 +7,8 @@ package pprof
 import (
 	"bytes"
 	"fmt"
-	"internal/profile"
-	"internal/testenv"
+	"github.com/mostafa/mal4md/internal/profile"
+	"github.com/mostafa/mal4md/internal/testenv"
 	"io"
 	"net/http"
 	"net/http/httptest"

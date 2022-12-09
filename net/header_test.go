@@ -6,7 +6,7 @@ package http
 
 import (
 	"bytes"
-	"internal/race"
+	"github.com/mostafa/mal4md/internal/race"
 	"reflect"
 	"runtime"
 	"testing"

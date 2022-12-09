@@ -13,7 +13,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"internal/testenv"
+	"github.com/mostafa/mal4md/internal/testenv"
 	"io"
 	"log"
 	"net"
